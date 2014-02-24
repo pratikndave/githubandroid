@@ -1,0 +1,117 @@
+<!-- RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="5"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DisplayScheduleActivity" >
+
+    <TextView
+        android:id="@+id/tvScheduleDate"
+        
+        android:text="@string/schedule_dateHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/tvSlotA"
+        android:text="@string/schedule_slotAHeader"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/tvSlotB"
+        android:text="@string/schedule_slotBHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/tvSlotC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal|top"
+
+        android:text="@string/schedule_slotCHeader" />
+
+    <TextView
+        android:id="@+id/tvSlotD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal|top"
+
+        android:text="@string/schedule_slotDHeader" />
+
+</RelativeLayout-->
+
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff"> 
+    
+    
+    <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent">  
+        
+
+        
+	</TableRow>
+    
+    
+    <TableRow 
+        android:id="@+id/tableRow2" 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent">  
+        
+	<TextView
+        android:id="@+id/tvScheduleDate"
+        
+        android:text="@string/schedule_dateHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/tvSlotA"
+        android:text="@string/schedule_slotAHeader"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    
+    <TextView
+        android:id="@+id/tvSlotB"
+        android:text="@string/schedule_slotBHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:id="@+id/tvSlotC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:text="@string/schedule_slotCHeader" />
+
+    <TextView
+        android:id="@+id/tvSlotD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:text="@string/schedule_slotDHeader" />
+        
+	</TableRow>
+
+</TableLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IlpApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calbtn_text">Add Event to Calendar</string>
+    <string name="session_name">Hands On - Inheritance and Polymorphism</string>
+    
+    <string name="schedule_dateHeader">Date</string>
+    <string name="schedule_slotAHeader">Slot A</string>
+    <string name="schedule_slotBHeader">Slot B</string>
+    <string name="schedule_slotCHeader">Slot C</string>
+    <string name="schedule_slotDHeader">Slot D</string>
+
+</resources>
